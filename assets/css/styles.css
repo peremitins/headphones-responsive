@@ -288,6 +288,12 @@ img {
   width: 90px;
 }
 
+.sponsor__title {
+  opacity: 0;
+  appearance: none;
+  height: 0;
+}
+
 .sponsor__container {
   grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   row-gap: 5rem;
